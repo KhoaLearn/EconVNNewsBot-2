@@ -43,18 +43,18 @@ question_controller = QuestionController()
 rag_controller = RAGController(question_controller=question_controller, embedding_model=embedding_model)  # Pass correct parameters
 
 # Load categories from CSV
-def load_categories():
-    df = pd.read_csv('/Users/khoale/EconVNNewsBot-Pro/controller/categories.csv')
-    categories = df['category'].tolist()
-    categories.insert(0, "All")
-    return categories
+# def load_categories():
+#     df = pd.read_csv('/Users/khoale/EconVNNewsBot-Pro/controller/categories.csv')
+#     categories = df['category'].tolist()
+#     categories.insert(0, "All")
+#     return categories
 
 # Load sources from CSV
-def load_sources():
-    df = pd.read_csv('/Users/khoale/EconVNNewsBot-Pro/controller/source.csv')
-    sources = df['source'].tolist()
-    sources.insert(0, "All")
-    return sources
+# def load_sources():
+#     df = pd.read_csv('/Users/khoale/EconVNNewsBot-Pro/controller/source.csv')
+#     sources = df['source'].tolist()
+#     sources.insert(0, "All")
+#     return sources
 
 if 'query_history' not in st.session_state:
     st.session_state['query_history'] = []
