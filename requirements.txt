@@ -1,0 +1,9 @@
+pinecone-client
+openai
+python-dotenv
+#"pinecone-client[grpc]"
+transformers
+einops
+# -U sentence-transformers
+sentence-transformers>=2.2.2
+pyvi
