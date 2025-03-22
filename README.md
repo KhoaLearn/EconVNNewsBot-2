@@ -1,2 +1,2 @@
-# RAT4EconNews
-RAT4EconNews
+# EconVNNewsBot-2
+EconVNNewsBot-2
